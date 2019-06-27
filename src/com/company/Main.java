@@ -4,16 +4,16 @@ public class Main {
 
     public static void main(String[] args) {
         String[] names = {"Коля", "Саша", "Маша"};
-        for (int i = 0; i < 4; i++) {
-            switch (i) {
-                case 0:
-                    System.out.println(names[i] + " Good Morning!");
+        for (String s : names) {
+            switch (s) {
+                case "Коля":
+                    System.out.println(s + " Good Morning!");
                     break;
-                case 1:
-                    System.out.println(names[i] + " Good day!");
+                case "Саша":
+                    System.out.println(s+" Good day!");
                     break;
-                case 2:
-                    System.out.println(names[i] + " Good Evening!");
+                case "Маша":
+                    System.out.println(s + " Good Evening!");
                     break;
 
             }
